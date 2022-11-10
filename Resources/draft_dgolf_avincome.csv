@@ -1,4 +1,4 @@
-,id,name,city,state_x,zip,holeCount,rating,latitude,longitude,Modified,Comments,state_y,zipcode,total_pop,total_income,country,avg_income
+name,city,state_x,zip,holeCount,rating,latitude,longitude,Modified,Comments,state_y,zipcode,total_pop,total_income,country,avg_income
 0,adventist-discovery-park,Adventist DISCovery Park,Opelika ,Alabama,36804,3,,32.6454116,-85.3782795,no,none,AL,36804,8240,417346,USA,50648.786407766995
 1,agape-disc-golf-course,Agape Disc Golf Course,Scottsboro ,Alabama,35769,9,,34.6228192,-86.0806919,no,none,AL,35769,4170,316625,USA,75929.25659472423
 2,aggieland-disc-golf,Aggieland Disc Golf,Hamilton ,Alabama,35570,18,,34.142323499999996,-87.98864379999999,no,none,AL,35570,3930,174684,USA,44448.85496183206
