@@ -24,6 +24,8 @@ Meet the Pyrates:
 |	Unemployment.csv	|	median household income by county			|	https://www.ers.usda.gov/data-products/county-level-data-sets/	|
 |	FIPS_CODES.csv	|	County IDs for choropleth map			|	https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt	|
 |	python module geopy.geocoders	|	county names by latitude/longitude			|	Python module geopy.geocoders	|
+|	csvData.csv	|	Population density by state			|	https://worldpopulationreview.com/states	|
+
 ---
 <br>
 <br>
@@ -76,3 +78,5 @@ Meet the Pyrates:
 |	dgolf_FIPSmnmap.csv	|	80	|	For Choropleth analysis	|	Minnesota county summary data for choropleth map
 |	MNCounties.png	|	none	|	For presentation	|	MN choropleth map 
 |	MNCountiesreverse.png	|	none	|	For presentation	|	MN choropleth map with reverse coloring
+
+
