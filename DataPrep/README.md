@@ -66,6 +66,7 @@ Meet the Pyrates:
 |	dgolfall.csv	|	6770	|	WIP doc	|	add county info to draft_dgolf_avincome data using python module geopy.geocoders
 |	dgolfcounty.csv	|	6536	|	WIP doc	|	merge of dgolfall, CountyIncome, and CountyPopDensity data
 <br>
+
 ### <span style="color:LightBlue"> P1_data_prep_Choropleth_final.ipynb output files	</span>					
 |	File name	|	n rows	|	Comments	|	Contents
 |	---------------------------------------------------------	|	-------	|	------------------------------------------------	|	--------------------------------------------------------------------------------------------------------------------------------------
