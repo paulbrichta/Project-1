@@ -53,7 +53,8 @@ As a result, there was a 2-3% loss of data, which was considered acceptable to c
 |	---------------------------------------------------------	|	--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------					|
 |	P1_data_prep_final.ipynb 	|	primary data preparation notebook					|
 |	P1_data_prep_county_final.ipynb	|	supplemental notebook that incorporates the county data into the original dataset.  Data loss of approx 3% during processing.  234 records did not match with county pop density and/or median income records.					|
-|	P1_data_prep_Choropleth_final.ipynb	|	supplemental notebook to update the data and create a Minnesota county cloropleth map.  Data loss of approx 2% during reprocessing.  153 records removed at county merge.					|
+|	P1_data_prep_Choropleth_final.ipynb	|	supplemental notebook to update the data and create a Minnesota county cloropleth map.  Data loss of approx 2% during reprocessing.  153 records removed at county merge.		
+|   P1_data_prep_final_plus.ipynb		| supplemental notebook that includes the popularity index by state (number of courses/population in millions)
 ---
 <br>
 <br>
@@ -98,3 +99,7 @@ As a result, there was a 2-3% loss of data, which was considered acceptable to c
 |	MNCountiesreverse.png	|	none	|	For presentation	|	MN choropleth map with reverse coloring
 
 
+### <span style="color:LightBlue"> P1_data_prep_final_plus.ipynb output files	</span>					
+|	File name	|	n rows	|	Comments	|	Contents
+|	---------------------------------------------------------	|	-------	|	------------------------------------------------	|	--------------------------------------------------------------------------------------------------------------------------------------
+|	draft_dgolf_state_popularityindex.csv	|	50	|	For presentation	|	popularity index by state (number of courses/population in millions)
