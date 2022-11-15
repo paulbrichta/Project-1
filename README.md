@@ -86,6 +86,11 @@ Data was sourced from the following:
 Additional information regarding Data Acquisition and Data Preparation is available in the README.md in the DataPrep directory.
 
 We would like to thank the following mentors for their help throughout the data collection, analysis and presentation process:
+
 Nick Sneed – Data Analysis Instructor
-Ian Mac Moore – Data Analysis Teaching Assistant
-Jonathan Fludd – Data Analysis Teaching Assistant
+
+Ian Mac Moore – Teaching Assistant
+
+Jonathan Fludd – Teaching Assistant
+
+Shane Taylor - Teaching Assistant
