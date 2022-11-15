@@ -12,6 +12,23 @@ Meet the Pyrates:
 * Jason McHone
 
 ---
+#  <span style="color:tan"> Data Preparation Summary </span>
+
+Data were collected on over 7000 Disc Golf courses organzied by geographic zones, such as region, state and county as well as leading indicators for marketing success, Median Income and Population Density.
+
+These data were pulled from Kaggle, Socrata, USDA.gov, FCC.gov, worldpopulationreview.  Links to these data are available below.
+
+The data were prepared by merging Disc Golf course data with population and income datasets.
+Some of the difficulties we  encountered in data cleaning and merge:
+* State names vs abbreviations
+* county name formats (i.e. Saint vs St.)
+* Alaska was excluded from initial county summaries because city names were entered in as county names.  
+* This did not impact our overall analysis, as the state of Alaska only has 31 disc golf courses overall and was not a marketing target.
+
+As a result, there was a 2-3% loss of data, which was considered acceptable to continue with analysis.
+
+---
+
 
 #  <span style="color:tan"> Data Preparation Matrix </span>
 
@@ -24,6 +41,8 @@ Meet the Pyrates:
 |	Unemployment.csv	|	median household income by county			|	https://www.ers.usda.gov/data-products/county-level-data-sets/	|
 |	FIPS_CODES.csv	|	County IDs for choropleth map			|	https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt	|
 |	python module geopy.geocoders	|	county names by latitude/longitude			|	Python module geopy.geocoders	|
+|	csvData.csv	|	Population density by state			|	https://worldpopulationreview.com/states	|
+
 ---
 <br>
 <br>
@@ -65,7 +84,7 @@ Meet the Pyrates:
 |	dgolfcounty.csv	|	6536	|	WIP doc	|	merge of dgolfall, CountyIncome, and CountyPopDensity data
 <br>
 
-### <span style="color:LightBlue"> P1_data_prep_Choropleth_final.ipynb output files	</span>	
+### <span style="color:LightBlue"> P1_data_prep_Choropleth_final.ipynb output files	</span>					
 |	File name	|	n rows	|	Comments	|	Contents
 |	---------------------------------------------------------	|	-------	|	------------------------------------------------	|	--------------------------------------------------------------------------------------------------------------------------------------
 |	CountyIncomeCHROMO.csv	|	3141	|	WIP doc	|	median HH income by county (from Unemployment.csv)
@@ -77,3 +96,5 @@ Meet the Pyrates:
 |	dgolf_FIPSmnmap.csv	|	80	|	For Choropleth analysis	|	Minnesota county summary data for choropleth map
 |	MNCounties.png	|	none	|	For presentation	|	MN choropleth map 
 |	MNCountiesreverse.png	|	none	|	For presentation	|	MN choropleth map with reverse coloring
+
+
