@@ -12,6 +12,23 @@ Meet the Pyrates:
 * Jason McHone
 
 ---
+#  <span style="color:tan"> Data Preparation Summary </span>
+
+Data were collected on over 7000 Disc Golf courses organzied by geographic zones, such as region, state and county as well as leading indicators for marketing success, Median Income and Population Density.
+
+These data were pulled from Kaggle, Socrata, USDA.gov, FCC.gov, worldpopulationreview.  Links to these data are available below.
+
+The data were prepared by merging Disc Golf course data with population and income datasets.
+Some of the difficulties we  encountered in data cleaning and merge:
+* State names vs abbreviations
+* county name formats (i.e. Saint vs St.)
+* Alaska was excluded from initial county summaries because city names were entered in as county names.  
+* This did not impact our overall analysis, as the state of Alaska only has 31 disc golf courses overall and was not a marketing target.
+
+As a result, there was a 2-3% loss of data, which was considered acceptable to continue with analysis.
+
+---
+
 
 #  <span style="color:tan"> Data Preparation Matrix </span>
 
